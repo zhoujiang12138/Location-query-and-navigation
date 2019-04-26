@@ -1,0 +1,30 @@
+<view class="search">  
+       <input  class='search-input' placeholder="请输入地名" auto-focus bindinput="Input"  bindchange="bindchange" value="{{inputvalue}}"/>  
+       <!-- <button  class="btnclass" bindtap="setfind">浏览地点</button>      -->
+</view>
+<scroll-view class="page-body"  scroll-y="true">
+  <navigator  url="../map/map" wx:for="{{place}}" wx:for-index="nu"> 
+<view class="item" bindtap="itemtap">
+			<image class="poster" src="{{src}}"></image>
+			<view class="meta">
+				<text class="title">{{item.name}}</text>
+        <text class="sub-title">编号：{{item.id}}</text>
+			</view>	
+</view>
+	</navigator>
+</scroll-view>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+

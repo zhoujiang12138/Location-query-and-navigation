@@ -1,0 +1,11 @@
+<view class="txt">
+<view class="image">
+<image class="jpg" style="width:350px;height:200px;background-color:#eeeeee;" src="{{imgsrc}}"></image>
+</view>
+
+<text class='txt-l'>历史背景：</text>
+<text class='txt-r' decode="{{true}}" space="{{true}}">{{text1}}
+</text>
+<text class='txt-l'>位置：</text>
+<text class='txt-r' decode="{{true}}" space="{{true}}">{{text2}}</text>
+</view>

@@ -1,0 +1,99 @@
+hopage{
+	font-family: "Microsoft YaHei";
+	background-color: #fff;
+	display: flex;
+	/*纵向排列*/
+	flex-direction:column;
+}
+.page-header{
+	display: flex;
+	/*横向居中对齐*/
+	/*justify-content:center;*/
+	border-bottom: 2rpx solid #ccc;
+	margin-bottom: 10rpx;
+}
+.page-header-text{
+	padding: 20rpx 40rpx;
+	color: #999;
+	font-size: 40rpx;
+	text-align:center;
+}
+.page-body{
+	display: flex;
+	flex:1;
+	flex-direction:column; 
+}
+.body{
+  display: flex;
+  	flex:1;
+ flex-direction: column;
+}
+.item{
+	display: flex;
+  height: 64px;
+  background-color: 	#FFFFFF;
+  /* border: 1px solid #000; */
+}
+.item .poster{
+	width: 39px;
+	height: 64px;
+	/* margin-right: 20rpx; */
+  background-size: 100% 100%;
+  /* background-image: url('../image/housetown.png'); */
+}
+.item .meta{
+	flex:1;
+}
+.item .title,.item .sub-title{
+	display: block;
+	margin-bottom: 14rpx;
+}
+.item .title{
+	font-size: 18px;
+  /* font-weight: bold; */
+}
+.item .sub-title{
+	font-size: 10px; 
+  /* color: #999; */
+	color:#ABABAB;
+}
+.item .artists{
+	font-size: 26rpx;
+	color: #999;
+}
+.item .rating{
+	font-size: 28rpx; 
+	font-weight: bold;
+	color: red;
+}
+.search{
+  display: flex;
+  height: 39px;
+  background-color: #C1C1C1;
+}
+.search-input{
+  width:100%;
+	height: 39px;
+  font-size: 20px;
+  background-color: #333;
+  /* background-color: #E3E3E3; */
+}
+.btnclass{
+  flex:1;
+  height: 39px;
+	font-size: 15px;
+  background: #FFFF00;
+}
+.btnsearch{
+  width: 60px;
+	height: 35px;
+	font-size: 13px;
+}
+
+
+
+
+
+
+
+
